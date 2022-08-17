@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/formulas"
+        android:title="@string/formulas" />
+    <item
+        android:id="@+id/user_rules"
+        android:title="@string/user_rules">
+        <menu>
+            <item
+                android:id="@+id/show_rules"
+                android:title="@string/show_rules" />
+            <item
+                android:id="@+id/add_rules"
+                android:title="@string/add_rules" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/setting"
+        android:title="@string/settings" />
+</menu>

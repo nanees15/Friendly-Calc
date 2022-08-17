@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/material_dynamic_neutral_variant80"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingTop="16sp"
+    android:paddingBottom="7sp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginEnd="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginBottom="@dimen/cardview_compat_inset_shadow"
+        android:background="@color/material_dynamic_neutral70"
+        android:paddingTop="16sp"
+        android:paddingBottom="7sp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/material_dynamic_neutral60"
+            android:orientation="vertical"
+            android:paddingBottom="7sp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16sp"
+                android:paddingTop="16sp"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingTop="7sp"
+                android:text="Details"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16sp"
+                android:paddingTop="7sp"
+                android:paddingBottom="7sp"
+                android:text="age"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
